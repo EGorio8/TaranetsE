@@ -28,6 +28,11 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
 }
+
+a{
+    text-decoration: none;
+}
+
 ol, ul {
     list-style: none;
 }
@@ -93,4 +98,45 @@ body{
     line-height: 36px;
     border-bottom: 2px black solid;
     width: 500px;
+}
+
+#about{
+    height: 100vh;
+}
+
+.title{
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.about-text{
+    margin-top: 15px;
+    font-size: 18;
+}
+
+.about-text-bigger{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.ol{
+    font-size: 22px;
+    margin-left: 30px
+}
+
+.li{
+    margin-top: 12px;
+}
+
+.about-images{
+    display: flex;
+    margin-top: 153px;
+}
+
+.img1{
+    width: 800px;
+}
+
+.img2{
+    width: 650;
 }
