@@ -55,7 +55,7 @@ table {
 /* CSS RESET END */
 
 body {
-	background-color: gray;
+	background-color: rgba(229, 189, 189, 0.5);
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -163,7 +163,7 @@ li {
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
-	background-color: rgb(163, 163, 163);
+	background-color: rgba(229, 189, 189);
 	margin-left: auto;
 	margin-right: auto;
 	left: 0;
