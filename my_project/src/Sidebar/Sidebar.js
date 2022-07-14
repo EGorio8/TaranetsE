@@ -7,9 +7,11 @@ function Sidebar(){
             <nav>
                 <ul>
                     {articles.map(item =>
+                    <ol>
                         <li>
                             <a href={item.href}>{item.title}</a>
                         </li>
+                    </ol>
                     )}
                 </ul>
             </nav>

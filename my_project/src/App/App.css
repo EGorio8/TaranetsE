@@ -12,7 +12,7 @@
     margin: 0 auto;
     display: grid;
     grid-template-areas: 
-            "h h h"
+            "h h i"
             "m m s"
             "f f f";
 }

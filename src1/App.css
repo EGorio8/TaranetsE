@@ -1,13 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab&display=swap');
-
-
 .App {
   text-align: center;
-}
-
-* {
-  background-color: #282c34;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .App-logo {

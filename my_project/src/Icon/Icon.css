@@ -1,0 +1,14 @@
+.Icon-site-icon {
+    padding: 10px;
+    margin: 0px;
+    background-color: rgb(114, 79, 88);
+    text-align: center;
+}
+
+.Icon-site-icon{
+    grid-area: i;
+}
+
+.img{
+    width: 100px;
+}

@@ -1,9 +1,19 @@
 import React from 'react'
+import {useState}from "react"
+import "../App.css"
 
-export const Title = () => {
+const Title = (props)=> {
+
+  const [list, setList]= useState();
+
+  
+
+
   return (
-    <div>Title</div>
-  )
-}
+    <div>
+      <div>TODO LIST</div>
+    </div>
+  );
+};
 
 export default Title

@@ -7,9 +7,9 @@ const Header = (props)=>{
             </div>
             <div className="nav-bar">
                 {
-                    props.menu.map((ele)=>{
+                    props.menu.map((ele, index)=>{
                         return(
-                            <div className="nav.item">
+                            <div key={index} className="nav.item">
                         {ele}
                         </div> 
                         )

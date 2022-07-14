@@ -1,7 +1,10 @@
+/*Это квадрат справа*/
+
 .Sidebar {
     border: 1px solid black;
     padding: 10px;
     margin: 5px;
+    background-color: rgba(88, 60, 82, 0.322);
 }
 
 .Sidebar {
@@ -17,3 +20,4 @@
     padding-left: 0;
     font-size: 18px;
 }
+
