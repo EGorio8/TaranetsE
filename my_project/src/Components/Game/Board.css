@@ -1,0 +1,12 @@
+.board{
+    width:300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("./paper.jpg");
+}
+
+.image{
+    width: 300px;
+    height: 300px;
+}

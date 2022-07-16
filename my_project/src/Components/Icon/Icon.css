@@ -3,6 +3,7 @@
     margin: 0px;
     background-color: rgb(114, 79, 88);
     text-align: center;
+    display: block;
 }
 
 .Icon-site-icon{
@@ -10,5 +11,5 @@
 }
 
 .img{
-    width: 100px;
+    width: 90px;
 }

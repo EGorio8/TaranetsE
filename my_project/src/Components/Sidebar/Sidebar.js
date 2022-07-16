@@ -9,7 +9,7 @@ function Sidebar(){
                     {articles.map(item =>
                     <ol>
                         <li>
-                            <a href={item.href}>{item.title}</a>
+                            
                         </li>
                     </ol>
                     )}

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab&display=swap');
+
+
+
+.Header-site-header {
+    font-family: 'Montserrat', sans-serif;
+    padding: 1px;
+    margin: 0px;
+    text-align: center;
+    background-image: url("./metro.jpg");
+    border: 2px solid rgb(0, 0, 0);
+    width: auto;
+    height: auto;
+    padding-top: 20px;
+}
+
+.h1{
+    color: beige;
+    font-size:40px;
+	text-shadow: 2px 2px 2px #000;
+}
+
+.Header-site-header{
+    grid-area: h;
+}
+
+.nav1{
+    width: auto;
+    font-size: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+    text-align: left;
+    width: 550px;
+}
+
+.nav-item a {
+    width: auto;
+    margin-bottom: 25px;
+    cursor: pointer;
+    color: rgb(206, 206, 206);
+    outline: none;
+    background: #414040;
+    border: 1px solid rgb(27, 27, 27);
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+}
+
+.nav-item a:hover{
+    width: auto;
+    background: white;
+    color: #222222;
+    transition: .5s all ease;
+    display: flex;
+}
+
