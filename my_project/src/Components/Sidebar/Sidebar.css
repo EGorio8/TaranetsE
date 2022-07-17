@@ -1,25 +1,38 @@
-/*Это квадрат справа*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab&display=swap');
 
 .Sidebar {
+    font-family: 'Montserrat', sans-serif;
     padding: 10px;
     margin: 5px;
-    background-color: rgba(88, 60, 82, 0);
+    background-color: rgba(97, 97, 97, 0.247);
     margin-left: auto;
     width: 1000px;
+    height: 2000px;
+    color: aliceblue;
 }
 
 .Sidebar {
     grid-area: s;
 }
 
-.Sidebar ul {
-    padding-left: 0;
+.text{
+    color: aliceblue;
+
 }
 
-.Sidebar ul li {
-    list-style-type: none;
-    padding-left: 0;
-    font-size: 36px;
-    text-align: center;
-}
+@media (max-width:900px) {
+    .Sidebar {
+        padding: 10px;
+        margin: 5px;
+        background-color: rgba(97, 97, 97, 0.247);
+        margin-left: auto;
+        width: 375px;
+        height: 2000px;
+        
+    }
 
+    .text{
+        color: aliceblue;
+    }
+
+}

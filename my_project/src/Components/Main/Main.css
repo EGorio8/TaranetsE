@@ -1,11 +1,18 @@
-/*Это квадрат слева*/
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
 .Main {
+    font-family: Caveat;
+    height: 2000px;;
     border: 1px solid black;
     padding: 10px;
     margin: 5px;
     background-color: rgba(240, 248, 255, 0.699);
-    font-size: 18px;
-
+    font-size: 30px;
+    background: url('./paper1.jpg') no-repeat top;
+    background-repeat: repeat-y;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .Main {
@@ -15,4 +22,19 @@
 section {
     padding: 10px;
     margin: 5px;
+}
+
+@media (max-width:900px) {
+    .Main {
+        height: 3500px;;
+        border: 1px solid black;
+        padding: 10px;
+        margin: 5px;
+        background-color: rgba(240, 248, 255, 0.699);
+        font-size: 30px;
+        background: url('./paper1.jpg');
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
